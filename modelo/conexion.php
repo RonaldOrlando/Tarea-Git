@@ -6,6 +6,7 @@ class DBGestionLibreria
     private $dataBase = "if0_35545667_LibreriaITLA";
     private $user = "if0_35545667";
     private $password = "PYsUfZO8ieVD";
+    
 
     public function getConection()
     {
