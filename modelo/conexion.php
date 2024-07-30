@@ -2,10 +2,10 @@
 
 class DBGestionLibreria
 {
-    private $servidor = "sql101.infinityfree.com";
-    private $dataBase = "if0_35545667_LibreriaITLA";
-    private $user = "if0_35545667";
-    private $password = "PYsUfZO8ieVD";
+    private $servidor = "localhost";
+    private $dataBase = "DB_libreria";
+    private $user = "root";
+    private $password = "";
 
     public function getConection()
     {
