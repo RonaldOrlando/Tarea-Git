@@ -62,6 +62,9 @@
                 <li class="nav-item ">
                   <a class="nav-link" href="libros.php"> Libros </a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tiendas.php">Tiendas</a>
+                </li>
 
                 <li class="nav-item ">
                   <a class="nav-link" href="autores.php"> Autores </a>
