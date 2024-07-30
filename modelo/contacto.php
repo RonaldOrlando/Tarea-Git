@@ -1,8 +1,8 @@
 <?php
-$servidor = "sql101.infinityfree.com";
-$dataBase = "if0_35545667_LibreriaITLA";
-$user = "if0_35545667";
-$password = "PYsUfZO8ieVD";
+$servidor = "localhost";
+$dataBase = "DB_libreria";
+$user = "root";
+$password = "";
 
 $enlace = new mysqli($servidor, $user, $password, $dataBase);
 
