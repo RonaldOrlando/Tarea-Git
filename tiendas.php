@@ -115,12 +115,12 @@ include('modelo/conexion.php');
           //print('<p>' . $registro['titulo'] . '</p>');
           print('<tbody>' .
             '<tr class="table-primary">' .
-            '<th>' . $registro['titulo'] . '</th>' .
-            '<th>' . $registro['tipo'] . '</th>' .
-            '<th>' . $registro['precio'] . '</th>' .
-            '<th>' . $registro['avance'] . '</th>' .
-            '<th>' . $registro['notas'] . '</th>' .
-            '<th>' . $registro['fecha_pub'] . '</th>' .
+            '<th>' . $registro['nombre_tienda'] . '</th>' .
+            '<th>' . $registro['direcc_tienda'] . '</th>' .
+            '<th>' . $registro['ciudad'] . '</th>' .
+            '<th>' . $registro['estado'] . '</th>' .
+            '<th>' . $registro['pais'] . '</th>' .
+            '<th>' . $registro['cod_postal'] . '</th>' .
             '</tr>' .
             '</tbody>');
 
