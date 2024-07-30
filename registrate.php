@@ -104,6 +104,19 @@
             <div class="col-md-6 mx-auto">
               <div class="contact-form">
 
+              <?php
+                  $successMessage = '';
+                  if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                    $successMessage = '¡Registro enviado exitosamente!';
+                  }
+                ?>
+
+                <?php if ($successMessage): ?>
+                  <div class="alert alert-success" role="alert">
+                    <?php echo $successMessage; ?>
+                  </div>
+                <?php endif; ?>
+
                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                   <div>
                     <label for="fecha">Fecha:</label>
