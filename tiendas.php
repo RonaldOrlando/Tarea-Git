@@ -108,9 +108,9 @@ include('modelo/conexion.php');
         </thead>
         <?php
         $libreria = new DBGestionLibreria();
-        $titulos = $libreria->getTitulos();
+        $titulos = $libreria->getTiendas();
         //var_dump($titulos);
-        foreach ($titulos as $registro) {
+        foreach ($tiendas as $registro) {
           //print_r($registro);
           //print('<p>' . $registro['titulo'] . '</p>');
           print('<tbody>' .
