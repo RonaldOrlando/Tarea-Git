@@ -37,6 +37,17 @@ class DBGestionLibreria
 
         return $resultado;
     }
+    public function getTiendas()
+    {
+        $pdoConexion = $this->getConection();
+        $resultado = [];
+        if (is_object($pdoConexion)) {
+            $sql = "SELECT * FROM  tiendas";
+            $resultado = $pdoConexion->query($sql);
+        }
+
+        return $resultado;
+    }
 }
 
 
